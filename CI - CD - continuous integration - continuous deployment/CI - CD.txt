@@ -1,0 +1,48 @@
+Integração contínua de código aberto ou ferramentas de entrega contínua.
+
+Essas ferramentas são integradas com ferramentas de controle de versão, como o Git, e permitem a execução de testes automatizados, compilação e implantação do software em ambientes de desenvolvimento, teste e produção.
+
+- Ferrementas de implementação de CI/CD
+    
+    Jenkins, Travis CI e o CircleCI
+    
+    - Jenkins
+    
+    Jenkins é usado para construir e testar o seu produto continuamente, para que os desenvolvedores possam integrar continuamente as mudanças na construção. Jenkins é a ferramenta de CI / CD de código aberto mais popular no mercado hoje e é usado no suporte de DevOps, junto com outras ferramentas nativas da nuvem.
+    
+    Automação, incluindo CI / CD e automação de teste, é uma das principais práticas que permitem que as equipes de DevOps entreguem soluções de tecnologia “mais rápidas, melhores e mais baratas”.
+    
+- Exemplos de uso
+    
+    Com Jenkis com Java:
+    
+    ```java
+    pipeline {
+        agent any
+        stages {
+            stage('Build') {
+                steps {
+                    // Checkout the source code
+                    checkout scm
+    
+                    // Build the project with Maven
+                    sh 'mvn clean package'
+                }
+            }
+            stage('Test') {
+                steps {
+                    // Run unit tests with Maven
+                    sh 'mvn test'
+                }
+            }
+            stage('Deploy') {
+                steps {
+                    // Deploy the built artifact to a web server
+                    sh 'scp target/myapp.war user@webserver:/path/to/webapps'
+                }
+            }
+        }
+    }
+    ```
+    
+    Neste exemplo, a pipeline é dividida em três estágios: **`Build`**, **`Test`** e **`Deploy`**. No estágio de **`Build`**, o código-fonte é verificado e a aplicação é construída com o Maven. No estágio de **`Test`**, os testes de unidade são executados. E no estágio de **`Deploy`**, o artefato construído é implantado em um servidor web.
