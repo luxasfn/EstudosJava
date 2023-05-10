@@ -1,0 +1,50 @@
+1 - Paradigmas de programação são os mais utilizados.
+Forma de resolução de problemas com diretrizes e limitações
+específicas de cada paradigma utilizando linguagem de programação.
+Os paradigmas mais utilizados são o estruturado e a orientação a
+objeto.
+
+2- As estruturas de repetição podem utilizar uma condição de parada para interromper
+o loop. Qual estrutura de repetição NÃO garante a execução das instruções
+dentro do bloco ao menos uma vez?
+Enquanto faça
+
+3 - Um programa está sendo projetado para uma loja que vende para pessoa jurídica e
+física. No momento do cadastro deve ser escolhido o tipo com base no documento.
+Se o documento escolhido for o CPF, então a pessoa é física. Caso o documento escolhido seja CNPJ, o cliente será cadastrado como pessoa jurídica. Qual estrutura
+de algoritmo é utilizada para escolher o tipo de cliente com base no documento?
+Estrutura condicional
+
+4 - O paradigma estruturado ainda é muito utilizado para tratar problemas mais simples
+de maneira direta. Além disso, a maioria das pessoas aprende programação através
+deste paradigma. Aponte quais das características pertencem ao paradigma
+supracitado.
+
+Sequência, decisão e iteração.
+
+5 - As informações são processadas pelo computador com objetivo de encontrar a
+solução de um problema. As informações são classificadas em dois tipos. Quais
+são?
+Dados e instruções
+
+6 - Dentro de um ambiente computacional, o programador lida com diferentes tipos de
+dados. NÃO é um tipo básico de dados:
+Lista encadeada
+
+7 - Um algoritmo tem a função de verificar o estado de um cliente que pode ser ativo ou
+inativo. Uma variável é definida no programa para armazenar este estado. A variável
+recebe apenas os valores Verdadeiro e Falso, Ativo e Inativo respectivamente. Qual tipo de dados é utilizado para este caso.
+Lógico
+
+8 - Um algoritmo consiste em um passo a passo de ações com intuito de atingir um
+objetivo, ou solucionar algum problema. No mundo da programação essas ações
+são chamadas de:
+Instruções
+
+9 - O que são funções?
+Bloco de instruções/operações com tarefas específicas que podem ser
+utilizadas por todo programa principal
+
+10 - O processo de tradução de um programa gera um novo programa que é executado
+pelo computador. Esse programa é denominado:
+Programa objeto
